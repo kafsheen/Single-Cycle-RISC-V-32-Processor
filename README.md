@@ -1,9 +1,11 @@
 # Single-Cycle MIPS-32 Processor
 
-## Overview
-This repository contains the Verilog HDL implementation of a 32-bit single-cycle MIPS processor. The design supports a core subset of the MIPS instruction set, including R-type, I-type, and J-type instructions. It was fully synthesized and verified on a Xilinx Artix-7 FPGA (Basys3 board).
+![MIPS Single Cycle](MIPS_Single_Cycle.jpg)
 
-As a single-cycle architecture, the entire datapath (instruction fetch, decode, execute, memory access, and write-back) completes in a single clock cycle. This architecture inherently trades high maximum frequency ($F_{max}$) for architectural simplicity, making it an excellent baseline for understanding instruction-level execution.
+## Overview
+This repository contains the Verilog HDL implementation of a 32-bit single-cycle MIPS processor. The design supports a core subset of the MIPS instruction set, including R-type, I-type, and J-type [...]
+
+As a single-cycle architecture, the entire datapath (instruction fetch, decode, execute, memory access, and write-back) completes in a single clock cycle. This architecture inherently trades high m[...]
 
 ## Features & Architecture
 * **Instruction Support:** Full execution of standard R-type, I-type, and J-type instructions (Arithmetic, Logic, Memory Load/Store, Branching, and Jumping).
