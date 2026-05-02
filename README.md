@@ -28,3 +28,5 @@ Functional correctness was verified using a directed testbench. The test suite c
 * Accurate load/store data alignment.
 * Correct branch calculation and resolution.
 * Expected ALU outputs for all supported operations.
+
+![Schematic](schematic_mips.jpeg)
